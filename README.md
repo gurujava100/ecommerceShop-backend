@@ -1,0 +1,1 @@
+# Ecommerce Spring Boot Starter\n\nBeginner-friendly Spring Boot project.\n
