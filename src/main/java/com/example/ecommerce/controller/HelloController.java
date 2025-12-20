@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-    @GetMapping("/api/v1/hello")
+    @GetMapping("/hello")
     public ApiResponse<String> hello() {
-        return new ApiResponse<>(true, "Hello API working", "Hello World");
+        return ApiResponse.success("Hello API working", "OK");
     }
 }
